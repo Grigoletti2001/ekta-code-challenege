@@ -16,9 +16,8 @@ we are ending a function here that iterates through an array of questions that i
           .some( q => q.currentAnswer == "No")`
     //third iteration-else 
 
-
+//psuedocode
     let q = 
-
 
 if (q.subThreadName == this.currentQuestion.subThreadName )) 
 {
@@ -49,6 +48,14 @@ The final part is function "q" which executes "object.assign" and has a method o
 
 
 3. What is this code doing?
+//documentation. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+`const old = this.allQuestions.map(function(question: any) {
+  return {...question};
+})`
+variable "old" is defined as ... 
+//array prototype map. 
+
 
 
 
