@@ -6,6 +6,9 @@ const { element, object } = require("prop-types")
 1. What is this code doing? How might it be improved?
 
 
+
+
+
 2. What is this code doing?
 var oldAssessment = this.allQuestions.map( q => Object.assign({}, q));
 
