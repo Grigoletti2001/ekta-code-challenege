@@ -4,9 +4,36 @@ const { V4MAPPED } = require("dns")
 const { element, object } = require("prop-types")
 
 1. What is this code doing? How might it be improved?
+Documentation: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/return
+we are ending a function here that iterates through an array of questions that is boolean in nature (true/false).
+ 
+  q.subThreadName == this.currentQuestion.subThreadName
+          ) 
+          //first iteration-if 
+     .filter(q => q.mrLevel == this.currentQuestion.mrLevel)
+    //second iteration-if 
+
+          .some( q => q.currentAnswer == "No")`
+    //third iteration-else 
 
 
+    let q = 
 
+
+if (q.subThreadName == this.currentQuestion.subThreadName )) 
+{
+    console.log("true");
+} 
+else if (q => q.mrLevel == this.currentQuestion.mrLevel)
+{
+    console.log(true); //This will be executed
+}
+else if (q.currentAnswer == "No") 
+{
+    console.log( "false ")`
+);
+
+return !this.allQuestions.filter
 
 
 2. What is this code doing?
