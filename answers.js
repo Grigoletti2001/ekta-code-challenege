@@ -1,10 +1,20 @@
 //Please put your answers here
 
+const { V4MAPPED } = require("dns")
+const { element, object } = require("prop-types")
+
 1. What is this code doing? How might it be improved?
 
 
-
 2. What is this code doing?
+var oldAssessment = this.allQuestions.map( q => Object.assign({}, q));
+
+The variable "oldAssessment" is being defined. 
+The first part of the definition is a callback (this.allQuestions.map). 
+see documentation for callback here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+But to summarize, we have the value of our element, the index of our element, and the object being V4MAPPED. 
+
+The final part is function "q" which executes "object.assign" and has a method of ({}, q)); as params. 
 
 
 
